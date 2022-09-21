@@ -15,6 +15,18 @@ class $AssetsIconsGen {
   /// File path: assets/icons/allTaskLogo.png
   AssetGenImage get allTaskLogo =>
       const AssetGenImage('assets/icons/allTaskLogo.png');
+
+  /// File path: assets/icons/iconGoal.svg
+  String get iconGoal => 'assets/icons/iconGoal.svg';
+
+  /// File path: assets/icons/iconIncrease.svg
+  String get iconIncrease => 'assets/icons/iconIncrease.svg';
+
+  /// File path: assets/icons/iconTasksvg.svg
+  String get iconTasksvg => 'assets/icons/iconTasksvg.svg';
+
+  /// File path: assets/icons/iconToday.svg
+  String get iconToday => 'assets/icons/iconToday.svg';
 }
 
 class Assets {
