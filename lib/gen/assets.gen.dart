@@ -20,6 +20,16 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/AllTask.png
   AssetGenImage get allTask => const AssetGenImage('assets/images/AllTask.png');
+
+  /// File path: assets/images/Checklist.png
+  AssetGenImage get checklist =>
+      const AssetGenImage('assets/images/Checklist.png');
+
+  /// File path: assets/images/success.png
+  AssetGenImage get success => const AssetGenImage('assets/images/success.png');
+
+  /// File path: assets/images/target.png
+
 }
 
 class Assets {
