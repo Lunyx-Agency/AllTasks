@@ -6,7 +6,7 @@ class AllTaskPages {
   static List<GetPage> pages = [
     GetPage(
       name: AllTaskRouteNames.splashScreen,
-      page: () =>  BottomNavigation(),
+      page: () =>  const SplashScreen(),
     )
   ];
 }

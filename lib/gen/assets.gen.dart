@@ -16,17 +16,21 @@ class $AssetsIconsGen {
   AssetGenImage get allTaskLogo =>
       const AssetGenImage('assets/icons/allTaskLogo.png');
 
-  /// File path: assets/icons/iconGoal.svg
-  String get iconGoal => 'assets/icons/iconGoal.svg';
+  /// File path: assets/icons/iconGoal.png
+  AssetGenImage get iconGoal =>
+      const AssetGenImage('assets/icons/iconGoal.png');
 
-  /// File path: assets/icons/iconIncrease.svg
-  String get iconIncrease => 'assets/icons/iconIncrease.svg';
+  /// File path: assets/icons/iconTask.png
+  AssetGenImage get iconTask =>
+      const AssetGenImage('assets/icons/iconTask.png');
 
-  /// File path: assets/icons/iconTasksvg.svg
-  String get iconTasksvg => 'assets/icons/iconTasksvg.svg';
+  /// File path: assets/icons/iconToday.png
+  AssetGenImage get iconToday =>
+      const AssetGenImage('assets/icons/iconToday.png');
 
-  /// File path: assets/icons/iconToday.svg
-  String get iconToday => 'assets/icons/iconToday.svg';
+  /// File path: assets/icons/icon_increase.png
+  AssetGenImage get iconIncrease =>
+      const AssetGenImage('assets/icons/icon_increase.png');
 }
 
 class Assets {
