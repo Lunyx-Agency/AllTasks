@@ -1,6 +1,5 @@
 import 'package:alltask/gen/assets.gen.dart';
 import 'package:alltask/views/constants/constants.dart';
-import 'package:alltask/views/constants/solid_colors.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigation extends StatelessWidget {
@@ -12,11 +11,11 @@ class BottomNavigation extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        child:  const Icon(Icons.add),
         backgroundColor: SolidColors.lightBlue,
         elevation: 0,
         shape: const StadiumBorder(side: BorderSide(color: Colors.white, width: 4)),
         onPressed: () {},
+        child:  const Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: Padding(
@@ -34,7 +33,7 @@ class BottomNavigation extends StatelessWidget {
                   begin: Alignment.centerRight,
                   end: Alignment.centerLeft),
             ),
-            child: Container(
+            child: SizedBox(
               height: 60,
               child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
